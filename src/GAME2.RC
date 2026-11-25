@@ -1,0 +1,16 @@
+#include "game2.hpp"
+
+ICON    ID_APPMAIN     game2.ico
+
+MENU ID_APPMAIN
+  {
+  MENUITEM "~Quit!",           IDM_QUIT
+  }
+
+STRINGTABLE LOADONCALL MOVEABLE
+  {
+  ID_APPMAIN       "Gearing up for Games.  Sample 2"
+
+  IDS_ERR_CREATE_DIVEBUFFER     "Cannot create DIVE Buffer.  Terminating."
+  }
+
