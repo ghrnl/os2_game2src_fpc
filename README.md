@@ -9,9 +9,9 @@ Using fpc 3.2.2
 
 fpc -Fuunits -Iinc game
 
-Resource file (as needed): RC -r GAME1.RC
+Resource file (as needed): RC -r GAME2.RC
 
-The src directory has a makeme.cmd file which assumes the ToolKit to be installed. If this is not the case you can remove the os2.h include from the .RC file
+The src directory has a makeme.cmd file.
 
 
 # Credits
